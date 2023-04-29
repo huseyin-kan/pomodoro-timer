@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cf5c9105b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="mainBox" id="mainBox">
+        <div class="time">
+            <input type="number" name="min" class="min" id="min" value="25" readonly>
+            <span class="dot">:</span>
+            <input type="number" name="sec" class="sec" id="sec" value="00" readonly>
+        </div>
+        <div class="start">
+            <button class="timeHandler" id="submitHandler">START</button>
+        </div>
+        <div>
+            <button class="editHandler" id="editHandler">
+                <i class="fa-solid fa-cog " id="icon"></i>
+              </button>
+        </div>
+        <span class="settingsInfo" id="settingsInfo"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
